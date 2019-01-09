@@ -4,8 +4,8 @@
 	branch = new_feature
 [submodule "mnemosyne-gcc"]
 	path = mnemosyne-gcc
-	url = https://github.com/snalli/mnemosyne-gcc
-	branch = master
+	url = https://github.com/warsier/mnemosyne-gcc
+	branch = new_feature
 [submodule "nvml"]
 	path = nvml
 	url = https://github.com/warsier/nvml
