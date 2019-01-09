@@ -1,7 +1,7 @@
 [submodule "nstore"]
 	path = nstore
 	url = https://github.com/warsier/nstore
-	branch = master
+	branch = new_feature
 [submodule "mnemosyne-gcc"]
 	path = mnemosyne-gcc
 	url = https://github.com/snalli/mnemosyne-gcc
@@ -9,7 +9,7 @@
 [submodule "nvml"]
 	path = nvml
 	url = https://github.com/warsier/nvml
-	branch = master
+	branch = new_feature
 [submodule "redis"]
 	path = redis
 	url = https://github.com/snalli/redis
@@ -17,7 +17,7 @@
 [submodule "PMFS-new"]
 	path = PMFS-new
 	url = https://github.com/warsier/PMFS-new
-	branch = master
+	branch = new_feature
 [submodule "kv-echo"]
 	path = kv-echo
 	url = https://github.com/snalli/echo
