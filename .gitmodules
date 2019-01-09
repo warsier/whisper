@@ -1,7 +1,7 @@
 [submodule "nstore"]
 	path = nstore
-	url = https://github.com/snalli/nstore
-	branch = placement_new_on_psegments
+	url = https://github.com/warsier/nstore
+	branch = master
 [submodule "mnemosyne-gcc"]
 	path = mnemosyne-gcc
 	url = https://github.com/snalli/mnemosyne-gcc
