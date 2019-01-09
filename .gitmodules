@@ -12,8 +12,8 @@
 	branch = new_feature
 [submodule "redis"]
 	path = redis
-	url = https://github.com/snalli/redis
-	branch = 3.2-nvml
+	url = https://github.com/warsier/redis
+	branch = new_feature
 [submodule "PMFS-new"]
 	path = PMFS-new
 	url = https://github.com/warsier/PMFS-new
