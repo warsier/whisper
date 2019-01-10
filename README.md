@@ -15,7 +15,9 @@ Then the entire repository can be built using:
 	$ cd whisper
 	$ ./script.py -b -w all
 ~~~
-Please refer to the original document for further details.
+Please refer to the following original document for further details.
+
+## WHISPER 1.0 
 
 
 **WHISPER**, or **Wisconsin-HPL Suite for Persistence** is a comprehensive benchmark
