@@ -1,4 +1,22 @@
-# WHISPER 1.0
+
+# WHISPER 1.0 with PMTest injection
+
+Here we provide the Whisper repository with PMTest persistency testing API. We add our testing code to the original Whisper project and test the persistency of the code. We modified the following workloads in Whisper:
+* mnemosyne-gcc
+* nstore
+* nvml
+* PMFS-new
+* redis
+
+To build the entire repository:
+First, mnemosyne-gcc have a few extra dependencies and need to be met. Also, ALPS needs to be compiled individually. Please refer to the [README](https://github.com/warsier/mnemosyne-gcc/blob/a27ac7dba1c2ad3f074fef06f54319b8464775c3/README.md) for more details.
+Then the entire repository can be built using:
+~~~
+	$ cd whisper
+	$ ./script.py -b -w all
+~~~
+Please refer to the original document for further details.
+
 
 **WHISPER**, or **Wisconsin-HPL Suite for Persistence** is a comprehensive benchmark
 suite for emerging persistent memory technologies. For more details :
@@ -20,12 +38,12 @@ You may use it or develop your own for your analysis.
 
 ## To download:
 ~~~
-   	$ git clone --recursive https://github.com/swapnilh/whisper.git
+   	$ git clone --recursive https://github.com/warsier/whisper.git
 	$ cd whisper
 ~~~
 OR 
 ~~~
-   	$ git clone https://github.com/swapnilh/whisper.git
+   	$ git clone https://github.com/warsier/whisper.git
 	$ cd whisper
 	$ ./script.py -d
 ~~~
